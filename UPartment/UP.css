@@ -1,0 +1,1070 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  color: #EDECED;
+}
+nav{
+    background-color: #000000;
+    height: 65px;
+    width: 90%;
+    opacity: 0.7;
+  }
+  ul{
+      font-family: arial;
+      list-style-type: none;
+      margin: 20px;
+      position: absolute;
+      top: 0%;
+      right: 0%;
+  }
+  ul li{
+      display: inline-block;
+  }
+  ul li a{
+      margin: 5px;
+      padding: 5px;
+      line-height: 60%;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: bold;
+      color: white;
+    }
+    a:hover{
+      background-image: linear-gradient(to right,  #7FFFD4,#85BB65,#6CC417);
+      color: white;
+  }
+  ul li.active a{
+      background-image: linear-gradient(to right, #7FFFD4,#85BB65,#6CC417);
+      color: white;
+  }
+  #dl {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 9px;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    left: 33%;
+    top: 65%;
+    width: 35%;
+  }
+
+#img{
+  position: absolute;
+  bottom: 77%;
+  left: 1%;
+}
+  #tagline{
+      position: absolute;
+      top: 45%;
+      left: 28%;
+      font-family: 'papyrus';
+      font-size: 40px;
+      font-weight: bolder;
+      color: 000428;
+  }
+  #tagline1{
+    position: absolute;
+    top: 54%;
+    left: 34%;
+    font-family: 'papyrus';
+    font-size: 40px;
+    font-weight: bolder;
+    color: 000428;
+}
+.team{
+  font-family: 'papyrus';
+  font-size: 30px;
+  font-weight: bolder;
+  color: 000428;
+  position: absolute;
+  bottom: 79%;
+  left: 1%;
+}
+.team1{
+   font-family: 'arial';
+   font-size: 16px;
+   color: 000428;
+  position: absolute;
+  bottom: 67%;
+  left: 18%;
+}
+body{
+  font-family: arial;
+}
+
+.input{
+  margin-top: 50px;
+
+}
+
+.contact{
+  float: right;
+  margin-right: 200px;
+}
+
+label{
+  font-weight: bold;
+  font-size: 20px;
+}
+input{
+  width: 80%;
+ padding: 8px 16px;
+ margin: 8px 0;
+ box-sizing: border-box;
+}
+
+.textt{
+  margin-top: 55px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+#submit {
+  background-color: #4CAF50;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  font-weight: bold;;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  transition: color 100ms;
+}
+
+#submit:hover,
+#submit:focus {
+  background-color: green;
+}
+
+.d{
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 4%;
+}
+.dp{
+    position: absolute;
+    top: 56%;
+    left: 3%;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.InfoD{
+    position: absolute;
+    top: 60%;
+    left: 6%;
+    font-size: 18px;
+}
+.c{
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 21%;
+}
+.cp{
+    position: absolute;
+    top: 56%;
+    left: 20%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.InfoC{
+    position: absolute;
+    top: 60%;
+    left: 22%;
+    font-size: 18px;
+}
+.e{
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 38%;
+}
+.ep{
+    position: absolute;
+    top: 56%;
+    left: 37%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.InfoE{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    font-size: 18px;
+}
+.ds{
+    border-radius: 50%;
+    position: absolute;
+    top: 65%;
+    left: 13%;
+}
+.dsp{
+    position: absolute;
+    top: 86%;
+    left: 11%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.InfoDS{
+    position: absolute;
+    top: 90%;
+    left: 14%;
+    font-size: 18px;
+}
+.t{
+    border-radius: 50%;
+    position: absolute;
+    top: 65%;
+    left: 32%;
+}
+.tp{
+    position: absolute;
+    top: 86%;
+    left: 30%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.InfoT{
+    position: absolute;
+    top: 90%;
+    left: 34%;
+    font-size: 18px;
+}
+.logo2{
+  position: absolute;
+  top: 3%;
+  left: 30%;
+}
+.dp1{
+  font-size: 22px;
+  color: #EDECED;
+  position: absolute;
+  top: 47%;
+  left: 45%;
+}
+.google{
+  position: absolute;
+  top: 55%;
+  left: 43%;
+}
+.apple1{
+  position: absolute;
+  top: 61%;
+  left: 42%;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width: 600px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.row{
+  width: 50%;
+  height: 50%;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  /*margin-top: -150px;*/
+  margin-left: 270px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  margin-right: 270px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+#utilize{
+  margin: auto;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  margin-top: 100px;
+  padding: 10px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.studio{
+  background-color: #61958b;
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  width: 10%;
+  height: 15%;
+}
+.studioP{
+  font-family: serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  top: 29%;
+  right: 89%;
+}
+
+.studio:hover{
+  background-color:gray;
+}
+.studio a{
+  background-color: gray;
+}
+.apartment{
+  background-color: #61958b;
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  width: 10%;
+  height: 15%;
+}
+.apartmentP{
+  font-family: serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  top: 29%;
+  right: 78%;
+}
+.apartment:hover{
+  background-color:gray;
+}
+.apartment a{
+  background-color: gray;
+}
+
+.micro{
+  background-color: #61958b;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  width: 10%;
+  height: 15%;
+}
+.microP{
+  font-family: serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  top: 29%;
+  right: 69%;
+}
+.micro:hover{
+  background-color:gray;
+}
+.micro a{
+  background-color: gray;
+}
+
+.loft{
+  background-color: #61958b;
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  width: 10%;
+  height: 15%;
+}
+.loftP{
+  font-family: serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  top: 29%;
+  right: 60%;
+}
+.loft:hover{
+  background-color:gray;
+}
+.loft a{
+  background-color: gray;
+}
+.duplex{
+  background-color: #61958b;
+  position: absolute;
+  left: 55%;
+  top: 15%;
+  width: 10%;
+  height: 15%;
+}
+.duplexP{
+  font-family: serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  top: 29%;
+  right: 40%;
+}
+.duplex:hover{
+  background-color:gray;
+}
+.duplex a{
+  background-color: gray;
+}
+
+.triplex{
+  background-color: #61958b;
+  position: absolute;
+  left: 65%;
+  top: 15%;
+  width: 10%;
+  height: 15%;
+}
+.triplexP{
+  font-family: serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  top: 29%;
+  right: 29%;
+}
+.triplex:hover{
+  background-color:gray;
+}
+.triplex a{
+  background-color: gray;
+}
+
+.rises{
+  background-color: #61958b;
+  position: absolute;
+  left: 75%;
+  top: 15%;
+  width: 10%;
+  height: 15%;
+}
+.risesP{
+  font-family: serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  top: 29%;
+  right: 20%;
+}
+.rises:hover{
+  background-color:gray;
+}
+.rises a{
+  background-color: gray;
+}
+
+.condo{
+  background-color: #61958b;
+  position: absolute;
+  left: 85%;
+  top: 15%;
+  width: 10%;
+  height: 15%;
+}
+.condoP{
+  font-family: serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  top: 29%;
+  right: 10%;
+}
+.condo:hover{
+  background-color:gray;
+}
+.condo a{
+  background-color: gray;
+}
+.container1{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 60%;
+
+}
+.xs1{
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+.pxs1{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+.container2{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 40%;
+
+}
+
+.xs2{
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+.pxs2{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+.container3{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 20%;
+
+}
+
+.xs3{
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+.pxs3{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+.container4{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 60%;
+
+}
+
+.xa4{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs4{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+.container5{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 40%;
+
+}
+
+.xa5{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs5{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+.container6{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 20%;
+
+}
+
+.xa3{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs6{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+.container7{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 60%;
+
+}
+
+.xm1{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs7{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+.container8{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 40%;
+
+}
+
+.xm2{
+  position: absolute;
+  top: 3%;
+  left: 2%;
+}
+.pxs8{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+.container9{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 20%;
+
+}
+
+.xm3{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs9{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+.container10{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 60%;
+
+}
+
+.xl1{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs10{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+.container11{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 40%;
+
+}
+
+.xl2{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs11{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+.container12{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 20%;
+
+}
+
+.xl3{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs12{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+.container13{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 60%;
+
+}
+
+.xd1{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs13{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+.container14{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 40%;
+
+}
+
+.xd2{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs14{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+.container15{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 20%;
+
+}
+
+.xd3{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs15{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+.container16{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 60%;
+
+}
+
+.xt1{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs16{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+.container17{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 40%;
+
+}
+
+.xt2{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs17{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+
+.container18{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 20%;
+
+}
+
+.xt3{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs18{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+.container19{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 60%;
+
+}
+
+.xr1{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs19{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+.container20{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 40%;
+
+}
+
+.xr2{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs20{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+.container21{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 20%;
+
+}
+
+.xr3{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs21{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+.container22{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 30%;
+
+}
+.xc1{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs22{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
+
+.container23{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 50%;
+}
+
+.xc2{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.pxs23{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: serif;
+  position: absolute;
+  top: 68%;
+  left: 18px;
+}
